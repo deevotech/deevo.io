@@ -1447,7 +1447,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     margin: 0;
     padding: 0;
-    left: 40px;
+    left: 100px;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1642,7 +1642,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .header-menu-toggle {
     position: fixed;
-    right: 38px;
+    right: 100px;
     top: 100px;
     height: 42px;
     width: 42px;
@@ -1714,7 +1714,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-contact {
     position: fixed;
-    right: 38px;
+    right: 100px;
     top: 140px;
     font-family: "montserrat-medium", sans-serif;
     font-size: 1.3rem;
@@ -1724,7 +1724,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header-contact.opaque {
     background-color: #000000;
     position: fixed;
-    right: 38px;
+    right: 100px;
     top: 140px;
     font-family: "montserrat-medium", sans-serif;
     font-size: 1.3rem;
@@ -1751,7 +1751,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .header-logo {
         left: 30px;
     }
-    .header-menu-toggle {
+    .header-menu-toggle, .header-contact, .header-contact.opaque  {
         right: 25px;
     }
 }
@@ -1869,8 +1869,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__scroll {
     position: absolute;
-    right: 9.5rem;
-    bottom: 8.4rem;
+    left: 348px;
+    bottom: 110px;
 }
 
 .home-content__scroll a {
@@ -1913,10 +1913,46 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 10.2rem;
     background-color: #39b54a;
     position: absolute;
-    right: 7.2rem;
+    left: 35.2rem;
     bottom: 0;
 }
 
+.home-content_languages {
+    position: absolute;
+    right: 9.5rem;
+    bottom: 8.4rem;
+    font-family: "montserrat-medium", sans-serif;
+}
+
+.home-content_languages a {
+    color: #fff;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.home-content__article {
+    position: absolute;
+    left: 550px;
+    bottom: 110px;
+}
+
+.home-content__article a {
+    font-family: "montserrat-semibold", sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+    line-height: 3rem;
+    padding-left: 2.5rem;
+}
+.home-content__article .fa {
+    font-size: 23px;
+    position: absolute;
+    left: -3px;
+    top: 1px;
+}
 
 /* ------------------------------------------------------------------- 
  * ## home social 
@@ -2284,13 +2320,13 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
-.about__line {
+.project__line {
     display: block;
     width: 2px;
     height: 10.2rem;
     background-color: #FFFFFF;
     position: absolute;
-    right: 7.2rem;
+    left: 35.2rem;
     top: 0;
 }
 
